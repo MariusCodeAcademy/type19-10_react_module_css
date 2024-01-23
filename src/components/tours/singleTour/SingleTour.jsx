@@ -9,7 +9,7 @@ export default function SingleTour() {
         <h3>New York</h3>
         <p className={css.date}>Fri 27 Nov 2016</p>
         <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-        <Button>Buy tickets</Button>
+        <Button className={css.flexStart}>Buy tickets</Button>
       </div>
     </div>
   );

@@ -15,6 +15,10 @@
   gap: 14px;
 }
 
+.flexStart {
+  align-self: flex-start;
+}
+
 .date {
   color: gray;
   font-style: italic;
