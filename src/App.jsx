@@ -6,7 +6,7 @@ import AboutPage from './pages/AboutPage';
 
 export default function App() {
   return (
-    <div className='App container'>
+    <div className='App'>
       <Header />
       <hr />
 

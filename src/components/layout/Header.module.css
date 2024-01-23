@@ -1,0 +1,13 @@
+.header {
+  background-color: #333;
+  color: white;
+}
+
+.flexHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLink {
+}
