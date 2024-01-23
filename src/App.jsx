@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div className='App'>
       <Header />
-      <hr />
+      {/* <hr /> */}
 
       <Routes>
         <Route path='/' element={<HomePage />} />
