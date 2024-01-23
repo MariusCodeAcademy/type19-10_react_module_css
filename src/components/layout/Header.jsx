@@ -1,10 +1,14 @@
+import { Link, NavLink } from 'react-router-dom';
+
 export default function Header() {
   return (
     <header>
-      <h2>Logo</h2>
+      <Link to={'/'}>
+        <h2>Logo</h2>
+      </Link>
       <nav>
-        <a href='#'> Home</a>
-        <a href='#'> About</a>
+        <NavLink to='/'> Home</NavLink>
+        <NavLink to='/about'> About</NavLink>
       </nav>
     </header>
   );
