@@ -8,7 +8,11 @@ export default function TourPage() {
         <h1 className={css.mainTitle}>Our Tours</h1>
         <p className={css.subtitle}>Remember to book your tickets!</p>
 
-        <SingleTour />
+        <div className={css.grid}>
+          <SingleTour />
+          <SingleTour />
+          <SingleTour />
+        </div>
       </div>
     </section>
   );

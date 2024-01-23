@@ -1,0 +1,21 @@
+.wrap img {
+  display: block;
+}
+
+.wrap .infoBlock {
+  /* background-color: pink;  veiks ne visada */
+}
+
+.infoBlock {
+  padding: 15px;
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.date {
+  color: gray;
+  font-style: italic;
+}
