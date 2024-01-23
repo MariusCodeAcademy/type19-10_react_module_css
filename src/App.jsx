@@ -1,9 +1,10 @@
+import Header from './components/layout/Header';
 import './styles/App.css';
 
 export default function App() {
   return (
     <div className='App container'>
-      <h1>Hello, world!</h1>
+      <Header />
       <hr />
     </div>
   );
