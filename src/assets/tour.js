@@ -5,7 +5,7 @@ export const cards = [
     img: 'newyork.jpg',
   },
   {
-    town: 'Parios',
+    town: '',
     date: 'Fri 28 Nov 2016',
     img: 'paris.jpg',
   },
