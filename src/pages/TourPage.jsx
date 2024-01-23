@@ -1,3 +1,4 @@
+import { cards } from '../assets/tour';
 import css from '../components/tours/TourPage.module.css';
 import SingleTour from '../components/tours/singleTour/SingleTour';
 
@@ -9,9 +10,9 @@ export default function TourPage() {
         <p className={css.subtitle}>Remember to book your tickets!</p>
 
         <div className={css.grid}>
-          <SingleTour />
-          <SingleTour />
-          <SingleTour />
+          {cards.map((cObj) => (
+            <SingleTour key={cObj.town} />
+          ))}
         </div>
       </div>
     </section>

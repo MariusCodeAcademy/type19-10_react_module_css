@@ -1,4 +1,4 @@
-const cards = [
+export const cards = [
   {
     town: 'New York',
     date: 'Fri 27 Nov 2016',
