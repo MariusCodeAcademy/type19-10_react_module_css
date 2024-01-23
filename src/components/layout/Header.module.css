@@ -10,4 +10,10 @@
 }
 
 .navLink {
+  padding: 5px 10px;
+  display: inline-block;
+}
+.navLink:hover {
+  background-color: rgb(202, 202, 202);
+  color: black;
 }

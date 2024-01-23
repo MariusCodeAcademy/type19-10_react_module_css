@@ -6,11 +6,18 @@ export default function Header() {
     <header className={css.header}>
       <div className={`container ${css.flexHeader}`}>
         <Link to={'/'}>
-          <h2>Logo</h2>
+          <h2 className={css.navLink}>Logo</h2>
         </Link>
         <nav>
-          <NavLink to='/'> Home</NavLink>
-          <NavLink to='/about'> About</NavLink>
+          <NavLink className={css.navLink} to='/'>
+            Home
+          </NavLink>
+          <NavLink className={css.navLink} to='/tours'>
+            Tours
+          </NavLink>
+          <NavLink className={css.navLink} to='/about'>
+            About
+          </NavLink>
         </nav>
       </div>
     </header>
