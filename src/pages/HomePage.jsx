@@ -9,7 +9,7 @@ export default function HomePage() {
         Exercitationem excepturi iste dolore dicta. Omnis aspernatur ex magni illo sint, voluptatem
         nobis dolores ipsum.
       </p>
-      <button>Read more</button>
+      <button className='btn'>Read more</button>
     </div>
   );
 }

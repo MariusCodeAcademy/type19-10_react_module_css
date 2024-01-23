@@ -1,3 +1,5 @@
+import '../styles/button.css';
+
 export default function AboutPage() {
   return (
     <div>
@@ -7,7 +9,7 @@ export default function AboutPage() {
         Exercitationem excepturi iste dolore dicta. Omnis aspernatur ex magni illo sint, voluptatem
         nobis dolores ipsum.
       </p>
-      <button>Read more</button>
+      <button className='btn'>Read more</button>
     </div>
   );
 }
