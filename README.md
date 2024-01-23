@@ -8,6 +8,8 @@
 
 https://preview.colorlib.com/#nitro
 
-## pasidaryti bent 3-5 sekcijas
+### 1 pasidaryti bent 3-5 sekcijas
 
 su module.css
+
+### 2 bent vienam komponentui validuoti props su propTypes
