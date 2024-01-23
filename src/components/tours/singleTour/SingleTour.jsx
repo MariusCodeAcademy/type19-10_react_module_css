@@ -8,6 +8,7 @@ export default function SingleTour({ item }) {
 
   return (
     <div className={css.wrap}>
+      {/* <img src={'http://localhost:5173/images/city/newyork.jpg'} alt={item.town} /> */}
       <img src={`/images/${item.img}`} alt={item.town} />
       <div className={css.infoBlock}>
         <h3 onClick={sayHi}>{item.town}</h3>
