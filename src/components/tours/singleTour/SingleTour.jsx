@@ -1,7 +1,8 @@
 import Button from '../../UI/btn/Button';
 import css from './SingleTour.module.css';
+import PropTypes from 'prop-types';
 
-export default function SingleTour({ item }) {
+function SingleTour({ item }) {
   function sayHi() {
     console.log('Hi ------');
   }
@@ -21,3 +22,12 @@ export default function SingleTour({ item }) {
     </div>
   );
 }
+SingleTour.propTypes = {
+  item: PropTypes.shape({
+    img: PropTypes.string.isRequired,
+    town: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+  }),
+};
+
+export default SingleTour;

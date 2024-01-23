@@ -1,6 +1,7 @@
+import PropTypes from 'prop-types';
 import css from './Button.module.css';
 
-export default function Button({ children, className = '', onClick = () => {} }) {
+function Button({ children, className = '', onClick = () => {} }) {
   // return <button className={css.btn + ' ' + className}>{children}</button>;
   return (
     <button onClick={onClick} className={`${css.btn} ${className}`}>
@@ -9,3 +10,10 @@ export default function Button({ children, className = '', onClick = () => {} })
   );
   // return <button className={[css.btn, className].join(' ')}>{children}</button>;
 }
+Button.propTypes = {
+  onClick: PropTypes.func,
+  children: PropTypes.string.isRequired,
+  className: PropTypes.string,
+};
+
+export default Button;

@@ -11,7 +11,7 @@ export default function TourPage() {
 
         <div className={css.grid}>
           {cards.map((cObj) => (
-            <SingleTour key={cObj.town} item={cObj} />
+            <SingleTour key={cObj.id} item={cObj} />
           ))}
         </div>
       </div>
