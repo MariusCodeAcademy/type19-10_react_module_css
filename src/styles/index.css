@@ -64,3 +64,23 @@ img {
   text-decoration: underline;
   text-underline-offset: 5px;
 }
+
+.mainNav {
+}
+
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .burger {
+    display: block;
+  }
+  .mainNav {
+    display: none;
+  }
+  .mainNav.menuActive {
+    display: flex;
+    flex-direction: column;
+  }
+}
