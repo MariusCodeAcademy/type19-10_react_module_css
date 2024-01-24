@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <header className={css.header}>
-      <div className={`container ${css.flexHeader} ${isMenuActive ? css.menuActive : ''}`}>
+      <div className={`container relative ${css.flexHeader} `}>
         <Link to={'/'}>
           <h2 className={css.navLink}>Logo</h2>
         </Link>
