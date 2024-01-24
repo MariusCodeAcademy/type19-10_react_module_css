@@ -25,7 +25,7 @@ export default function Header() {
           </NavLink>
         </nav>
         <button onClick={() => setIsMenuActive(!isMenuActive)} className='burger'>
-          <i className='fa fa-bars' aria-hidden='true'></i>
+          <i className={`fa ${isMenuActive ? 'fa-close' : 'fa-bars'}`} aria-hidden='true'></i>
         </button>
       </div>
     </header>
